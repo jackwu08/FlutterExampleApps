@@ -17,7 +17,7 @@ dependencies:
 dev_dependencies:
   flutter_test:
     sdk: flutter # Required for a Flutter project that includes tests
-
+  test: <latest_version>  
 flutter:
 
   uses-material-design: true # Required if you use the Material icon font
