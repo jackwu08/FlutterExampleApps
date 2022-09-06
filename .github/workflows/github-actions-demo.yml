@@ -14,10 +14,10 @@ jobs:
         cache: 'gradle'
     - run: java --version
 
-    - name: Gradle Check
-      run: ./gradlew -PtargetJava=18 check --stacktrace --no-daemon
+    #- name: Gradle Check
+    #  run: ./gradlew -PtargetJava=18 check --stacktrace --no-daemon
 
-    - uses: gradle/wrapper-validation-action@v1
+    #- uses: gradle/wrapper-validation-action@v1
     - uses: subosito/flutter-action@v1
       with:
           flutter-version: $
